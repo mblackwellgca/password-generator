@@ -11,7 +11,7 @@ To randomly generate a password that meets certain criteria to create strong pas
 1. User will click the button "generate a password"
 2. After clicking the button, user will be prompted with questions to create a random secure password.
 
-![password generator](assets\images\password_generator.png)
+![password generator](./assets/images/password_generator.png)
 
 ## Criteria 
 GIVEN I need a new, secure password
@@ -32,7 +32,7 @@ GIVEN I need a new, secure password
 
 3. Upon answering the prompts the password will generate and appear in the box. 
 
-![password generated](assets\images\password-generator.gif)
+![password generated](./assets/images/password-generator.gif)
 
 ## Credits:
 * Sandra Smith
