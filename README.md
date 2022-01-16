@@ -37,9 +37,9 @@ GIVEN I need a new, secure password
 ## Credits:
 * Sandra Smith
 * Christopher Ponzio https://github.com/ChristopherPonzio
-https://www.w3schools.com/js/js_loop_for.asp
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
-https://www.w3schools.com/jsref/jsref_if.asp
+* https://www.w3schools.com/js/js_loop_for.asp
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+* https://www.w3schools.com/jsref/jsref_if.asp
 
 ## License:
 MIT License
