@@ -16,12 +16,10 @@ function generatePassword() {
   var newpassword = [""];
   var userchoice = [""];
   var lengthofpassword = window.prompt("How many characters(between 8 and 128)?");
-  if(Number.isNaN(lengthofpassword)) {
-    windows.alert("please enter a number");
-    return null;
-  }
-  if(lengthofpassword < 8 || lengthofpassword > 128) {
-    windows.alert("please enter a number between 8 and 128");
+ 
+// added if statment to prompt user to choose numbers between 8-128
+  if ((lengthofpassword < 8)||(lengthofpassword > 128)) {
+    alert("please enter a number between 8 and 128");
     return null;
   }
 
@@ -47,15 +45,16 @@ if (special === true) {
   userchoice.push('@', '%', '+', '/', "'", '!', '#', '$', '^', '?', ':', ',', ')', '(', '}', '{', ']', '[', '~', '-', '_', '.');
 }
 
+// added if statment to prompt user to choose at least one option
 if((!numbers)&&(!upperCase)&&(!lowerCase)&&(!special)) {
 alert("Must choose at least one type.");
 return null;
 }
 
-  for (var i = 0; i < lengthofpassword; i++) {
-    newpassword += userchoice[Math.floor(Math.random() * userchoice.lengthofpassword)];
-  }
+// A for loop repeats until a specified condition evaluates to false.
+for (var i = 0; i < lengthofpassword; i++) {
+  newpassword += userchoice[Math.floor(Math.random() *userchoice.length)];
+ }
 
   return newpassword;
 }
-

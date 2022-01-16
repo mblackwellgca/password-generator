@@ -1,8 +1,8 @@
 # password-generator
-Modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
 ## Live Links
-
+Published: https://mblackwellgca.github.io/password-generator/
+Repository: https://github.com/mblackwellgca/password-generator
 
 ## Description
 To randomly generate a password that meets certain criteria to create strong passwords on demand, for greater security.
@@ -37,6 +37,9 @@ GIVEN I need a new, secure password
 ## Credits:
 * Sandra Smith
 * Christopher Ponzio https://github.com/ChristopherPonzio
+https://www.w3schools.com/js/js_loop_for.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+https://www.w3schools.com/jsref/jsref_if.asp
 
 ## License:
 MIT License
