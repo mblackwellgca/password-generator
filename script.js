@@ -11,16 +11,17 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// This function joins all the user responses
 function generatePassword() {
   var newpassword = [""];
   var userchoice = [""];
   var lengthofpassword = window.prompt("How many characters(between 8 and 128)?");
-  if(Number.isNaN) {
-    alert("please enter a number");
+  if(Number.isNaN(lengthofpassword)) {
+    windows.alert("please enter a number");
     return null;
   }
   if(lengthofpassword < 8 || lengthofpassword > 128) {
-    alert("please enter a number between 8 and 128");
+    windows.alert("please enter a number between 8 and 128");
     return null;
   }
 
@@ -44,6 +45,11 @@ if (lowerCase === true) {
 var special = window.confirm("Would you like to include special characters?");
 if (special === true) { 
   userchoice.push('@', '%', '+', '/', "'", '!', '#', '$', '^', '?', ':', ',', ')', '(', '}', '{', ']', '[', '~', '-', '_', '.');
+}
+
+if((!numbers)&&(!upperCase)&&(!lowerCase)&&(!special)) {
+alert("Must choose at least one type.");
+return null;
 }
 
   for (var i = 0; i < lengthofpassword; i++) {
