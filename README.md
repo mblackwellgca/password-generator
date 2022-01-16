@@ -1,8 +1,8 @@
 # password-generator
 
 ## Live Links
-Published: https://mblackwellgca.github.io/password-generator/
-Repository: https://github.com/mblackwellgca/password-generator
+* Published: https://mblackwellgca.github.io/password-generator/
+* Repository: https://github.com/mblackwellgca/password-generator
 
 ## Description
 To randomly generate a password that meets certain criteria to create strong passwords on demand, for greater security.
